@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'hello_project.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
-
+# TODO: os.environ で呼び出すこと 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
